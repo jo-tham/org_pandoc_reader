@@ -31,6 +31,7 @@ Additional command line parameters can be passed to pandoc via the ORG_PANDOC_AR
 
 Contributing
 ------------
+If you have an issue please report it through the GH issues.
 
 1. Fork it
 2. Create your feature branch (`git checkout -b my-new-feature`)
@@ -38,12 +39,10 @@ Contributing
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
-
 [org]: http://orgmode.org/
 [pandoc]: http://johnmacfarlane.net/pandoc/
 [pelican]: http://getpelican.com
 
 Acknowledgements
 ----------------
-
-[pandoc_reader]: https://github.com/liob/pandoc_reader
+[pandoc_reader](https://github.com/liob/pandoc_reader)
