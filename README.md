@@ -29,6 +29,26 @@ Additional command line parameters can be passed to pandoc via the ORG_PANDOC_AR
                        '--standalone',
                        '--highlight-style=espresso',]
 
+
+Usage Notes
+-----------
+Simply use org-mode (.org) files instead of markdown files anywhere in your pelican blog.
+
+
+Note that in order for code blocks in your or files to be formatted with syntax highlighting, 
+code block headers should be placed on a separate line from the block demarcation. i.e.:
+
+    #+headers :results code replace output
+    #+begin_src sh
+    # source code
+    #+end_src
+
+
+Example
+-------
+[Live example](http://jotham-city.com/)
+
+
 Contributing
 ------------
 If you have an issue please report it through the GH issues.
